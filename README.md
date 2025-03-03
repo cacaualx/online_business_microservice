@@ -12,10 +12,10 @@ Ele oferece operações básicas de CRUD.
 
 ## Endpoints da API
 
-POST/addProduct: Adiciona um novo produto.
-POST/addProducts: Adiciona uma lista de produtos
-GET/Products: Retorna uma lista de produtos
-GET/product/{id}: Retorna um produto com um id específico
-GET/produt/{name}: Retorna um produto com um nome específico
-PUT/update: Atualiza um produto existente
-DELETE/delete/{id}: Deleta um produto de id específico
+- POST/addProduct: Adiciona um novo produto.
+- POST/addProducts: Adiciona uma lista de produtos
+- GET/Products: Retorna uma lista de produtos
+- GET/product/{id}: Retorna um produto com um id específico
+- GET/produt/{name}: Retorna um produto com um nome específico
+- PUT/update: Atualiza um produto existente
+- DELETE/delete/{id}: Deleta um produto de id específico
