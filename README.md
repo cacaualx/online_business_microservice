@@ -13,6 +13,18 @@ Ele oferece operações básicas de CRUD.
 - Lombok
 - Postman
 
+# Estrutura da aplicação
+
+- src/main/java: Código fonte da aplicação
+  - com.productmicroservice.Product_MS
+  - controller
+  - entity
+  - repository
+  - service
+- resources
+  - applciation.properties
+- src/test/java: Código de teste
+
 # Configuração do banco de dados
 
 O projeto utiliza o banco de dados MySQL para o armazenamento de novos produtos.
