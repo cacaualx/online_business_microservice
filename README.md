@@ -13,7 +13,7 @@ Ele oferece operações básicas de CRUD.
 - Lombok
 - Postman
 
-# Configuraçã odo banco de dados
+# Configuração do banco de dados
 
 O projeto utiliza o banco de dados MySQL para o armazenamento de novos produtos.
 
