@@ -6,12 +6,17 @@ Ele oferece operações básicas de CRUD.
 # Tecnologias utilizadas
 
 - Java 17
+- Swagger para documentação dos ENDPOINTS
 - Spring Boot 3.4.3
 - MySQL 8.0
 - Docker 27.5.1
 - Maven 4.0.0
 - Lombok
 - Postman
+
+# Documentação
+
+A documentação dos ENDPOINTS foi feita utilizando o Swagger
 
 # Estrutura da aplicação
 
