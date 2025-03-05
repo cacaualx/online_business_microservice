@@ -16,17 +16,8 @@ public class ProductController {
     private ProductService service;
 
     //Metodo POST
-    @Operation(description = "Adiciona um produto")
-    @ApiResponses(value = {
-            @ApiResponse(responseCode = "200", description = "Adiciona um novo produto ao banco de dados"),
-            @ApiResponse(responseCode = "500", description = "Erro de conexão")
-    })
-    @PostMapping("/addProduct")
-    public Product addProduct(@RequestBody Product product){
-        return service.saveProduct(product);
-    }
 
-    @Operation(description = "Adiciona uma lsita de produtos")
+    @Operation(description = "Adiciona uma lista de produtos")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Adiciona uma lista de produtos"),
             @ApiResponse(responseCode = "500", description = "Erro de conexão")
@@ -37,7 +28,7 @@ public class ProductController {
     }
 
     //Metodo GET
-    @Operation(description = "Retorna uma lsita de produtos")
+    @Operation(description = "Retorna uma lista de produtos")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Retorna uma lsita de produtos"),
     })
