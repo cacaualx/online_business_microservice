@@ -27,7 +27,7 @@ A documentação dos ENDPOINTS foi feita utilizando o Swagger
   - repository
   - service
 - resources
-  - applciation.properties
+  - application.properties
 - src/test/java: Código de teste
 
 # Configuração do banco de dados
